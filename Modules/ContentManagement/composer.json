@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/contentmanagement",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\ContentManagement\\Providers\\ContentManagementServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ContentManagement\\": ""
+        }
+    }
+}

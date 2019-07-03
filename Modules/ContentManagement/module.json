@@ -1,0 +1,16 @@
+{
+    "name": "ContentManagement",
+    "alias": "contentmanagement",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\ContentManagement\\Providers\\ContentManagementServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

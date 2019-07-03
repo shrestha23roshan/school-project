@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/schoolmanagement",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SchoolManagement\\Providers\\SchoolManagementServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SchoolManagement\\": ""
+        }
+    }
+}
